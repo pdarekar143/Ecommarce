@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [EcomSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="EcomTest(failed)">
+    <classes>
+      <class name="Infosys.Ecommarce.TestEHomepageFirefox">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenBrowser"/>
+          <include name="verifysearchbarclick"/>
+          <include name="verifysearchbutton"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifyFilterColour"/>
+          <include name="verifySelectColour"/>
+          <include name="ChekCart"/>
+          <include name="verifysearchbar"/>
+          <include name="verifyFilterSize"/>
+          <include name="verifyRelevance"/>
+          <include name="verifySelectSize"/>
+          <include name="verifychoice"/>
+        </methods>
+      </class> <!-- Infosys.Ecommarce.TestEHomepageFirefox -->
+      <class name="Infosys.Ecommarce.TestEHomepage">
+        <methods>
+          <include name="verifychoice"/>
+          <include name="OpenBrowser"/>
+          <include name="ChekCart"/>
+          <include name="verifyRelevance"/>
+          <include name="verifySelectSize"/>
+          <include name="verifyFilterSize"/>
+          <include name="verifySelectColour"/>
+          <include name="verifysearchbar"/>
+          <include name="verifyFilterColour"/>
+          <include name="verifysearchbutton"/>
+          <include name="verifyAddToCart"/>
+          <include name="verifysearchbarclick"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Infosys.Ecommarce.TestEHomepage -->
+    </classes>
+  </test> <!-- EcomTest(failed) -->
+</suite> <!-- Failed suite [EcomSuite] -->

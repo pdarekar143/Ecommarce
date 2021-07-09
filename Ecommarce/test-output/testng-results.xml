@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-02T16:27:03Z" name="Default suite" finished-at="2021-07-02T16:28:43Z" duration-ms="99886">
+    <groups>
+    </groups>
+    <test started-at="2021-07-02T16:27:03Z" name="Default test" finished-at="2021-07-02T16:28:43Z" duration-ms="99886">
+      <class name="Infosys.Ecommarce.TestEHomepage">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:27:03Z" name="OpenBrowser" finished-at="2021-07-02T16:27:54Z" duration-ms="51456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="verifysearchbutton()[pri:0, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:27:54Z" name="verifysearchbutton" finished-at="2021-07-02T16:27:55Z" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchbutton -->
+        <test-method signature="verifysearchbar()[pri:1, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:27:55Z" name="verifysearchbar" finished-at="2021-07-02T16:27:56Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifysearchbutton" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchbar -->
+        <test-method signature="verifysearchbarclick()[pri:2, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:27:56Z" name="verifysearchbarclick" finished-at="2021-07-02T16:28:01Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifysearchbar" duration-ms="5331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchbarclick -->
+        <test-method signature="verifyFilterColour()[pri:3, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:01Z" name="verifyFilterColour" finished-at="2021-07-02T16:28:03Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifysearchbarclick" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterColour -->
+        <test-method signature="verifyFilterSize()[pri:4, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:03Z" name="verifyFilterSize" finished-at="2021-07-02T16:28:05Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifyFilterColour" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilterSize -->
+        <test-method signature="verifyRelevance()[pri:5, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:05Z" name="verifyRelevance" finished-at="2021-07-02T16:28:07Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifyFilterSize" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRelevance -->
+        <test-method signature="verifychoice()[pri:6, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:07Z" name="verifychoice" finished-at="2021-07-02T16:28:30Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifyRelevance" duration-ms="22889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifychoice -->
+        <test-method signature="verifySelectColour()[pri:7, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:30Z" name="verifySelectColour" finished-at="2021-07-02T16:28:30Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifychoice" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectColour -->
+        <test-method signature="verifySelectSize()[pri:8, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:30Z" name="verifySelectSize" finished-at="2021-07-02T16:28:30Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifySelectColour" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectSize -->
+        <test-method signature="verifyAddToCart()[pri:9, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:30Z" name="verifyAddToCart" finished-at="2021-07-02T16:28:36Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifySelectSize" duration-ms="5369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method signature="ChekCart()[pri:10, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:36Z" name="ChekCart" finished-at="2021-07-02T16:28:42Z" depends-on-methods="Infosys.Ecommarce.TestEHomepage.verifyAddToCart" duration-ms="6441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChekCart -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:42Z" name="CloseBrowser" finished-at="2021-07-02T16:28:43Z" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="GenerateATReport()[pri:0, instance:Infosys.Ecommarce.TestEHomepage@5149d738]" started-at="2021-07-02T16:28:44Z" name="GenerateATReport" finished-at="2021-07-02T16:28:57Z" duration-ms="13507" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/sun/image/codec/jpeg/JPEGCodec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/sun/image/codec/jpeg/JPEGCodec
+at org.jfree.chart.encoders.SunJPEGEncoderAdapter.encode(SunJPEGEncoderAdapter.java:128)
+at org.jfree.chart.encoders.EncoderUtil.writeBufferedImage(EncoderUtil.java:144)
+at org.jfree.chart.ChartUtilities.writeChartAsJPEG(ChartUtilities.java:426)
+at org.jfree.chart.ChartUtilities.writeChartAsJPEG(ChartUtilities.java:374)
+at org.automationtesting.excelreport.Xl.generateReport(Xl.java:130)
+at Infosys.Ecommarce.TestEHomepage.GenerateATReport(TestEHomepage.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.sun.image.codec.jpeg.JPEGCodec
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateATReport -->
+      </class> <!-- Infosys.Ecommarce.TestEHomepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num">99,886</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Infosys.Ecommarce.TestEHomepage</td><td><a href="#m0">GenerateATReport</a></td><td rowspan="1">1625243324287</td><td rowspan="1">13507</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="11">Infosys.Ecommarce.TestEHomepage</td><td><a href="#m1">ChekCart</a></td><td rowspan="1">1625243316082</td><td rowspan="1">6441</td></tr><tr class="passedeven"><td><a href="#m2">verifyAddToCart</a></td><td rowspan="1">1625243310707</td><td rowspan="1">5369</td></tr><tr class="passedeven"><td><a href="#m3">verifyFilterColour</a></td><td rowspan="1">1625243281880</td><td rowspan="1">1877</td></tr><tr class="passedeven"><td><a href="#m4">verifyFilterSize</a></td><td rowspan="1">1625243283760</td><td rowspan="1">1649</td></tr><tr class="passedeven"><td><a href="#m5">verifyRelevance</a></td><td rowspan="1">1625243285415</td><td rowspan="1">1737</td></tr><tr class="passedeven"><td><a href="#m6">verifySelectColour</a></td><td rowspan="1">1625243310052</td><td rowspan="1">319</td></tr><tr class="passedeven"><td><a href="#m7">verifySelectSize</a></td><td rowspan="1">1625243310375</td><td rowspan="1">330</td></tr><tr class="passedeven"><td><a href="#m8">verifychoice</a></td><td rowspan="1">1625243287158</td><td rowspan="1">22889</td></tr><tr class="passedeven"><td><a href="#m9">verifysearchbar</a></td><td rowspan="1">1625243275947</td><td rowspan="1">594</td></tr><tr class="passedeven"><td><a href="#m10">verifysearchbarclick</a></td><td rowspan="1">1625243276544</td><td rowspan="1">5331</td></tr><tr class="passedeven"><td><a href="#m11">verifysearchbutton</a></td><td rowspan="1">1625243274741</td><td rowspan="1">1168</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">Infosys.Ecommarce.TestEHomepage#GenerateATReport</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/sun/image/codec/jpeg/JPEGCodec
+	at org.jfree.chart.encoders.SunJPEGEncoderAdapter.encode(SunJPEGEncoderAdapter.java:128)
+	at org.jfree.chart.encoders.EncoderUtil.writeBufferedImage(EncoderUtil.java:144)
+	at org.jfree.chart.ChartUtilities.writeChartAsJPEG(ChartUtilities.java:426)
+	at org.jfree.chart.ChartUtilities.writeChartAsJPEG(ChartUtilities.java:374)
+	at org.automationtesting.excelreport.Xl.generateReport(Xl.java:130)
+	at Infosys.Ecommarce.TestEHomepage.GenerateATReport(TestEHomepage.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.sun.image.codec.jpeg.JPEGCodec
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 26 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Infosys.Ecommarce.TestEHomepage#ChekCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Infosys.Ecommarce.TestEHomepage#verifyAddToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Infosys.Ecommarce.TestEHomepage#verifyFilterColour</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Infosys.Ecommarce.TestEHomepage#verifyFilterSize</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Infosys.Ecommarce.TestEHomepage#verifyRelevance</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Infosys.Ecommarce.TestEHomepage#verifySelectColour</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Infosys.Ecommarce.TestEHomepage#verifySelectSize</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Infosys.Ecommarce.TestEHomepage#verifychoice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Infosys.Ecommarce.TestEHomepage#verifysearchbar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Infosys.Ecommarce.TestEHomepage#verifysearchbarclick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Infosys.Ecommarce.TestEHomepage#verifysearchbutton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
